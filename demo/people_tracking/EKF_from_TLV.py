@@ -19,7 +19,7 @@ import numpy as np
 if __name__ == '__main__':
 
     tracker = ekf.EKF()
-    radar = ti.TI(cli_loc='COM3', data_loc='COM5', mode=1)
+    radar = ti.TI(cli_loc='COM10', data_loc='COM9', mode=1)
     radar._initialize()
 
     GTRACK_visualize.create()
